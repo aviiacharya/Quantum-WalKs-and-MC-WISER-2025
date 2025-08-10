@@ -4,6 +4,8 @@
 
 # Team  : Quantum Walk by Abhipsa Acharya
 - Single member, PhD Physics at University of Alabama
+- WISER Enrollment ID : gst-RS5OaS0jIVgMCG7
+- Summary : [link](https://github.com/aviiacharya/Quantum-Walks-and-MC-WISER-2025/blob/main/QW_MC_Summary_Wiser2025.pdf)
 
 ## Project Overview
 This project implements an **optimized Quantum Galton Board** simulation using Qiskit for the WISER 2025 challenge.  
@@ -69,6 +71,8 @@ Running the script generates:
 - **Circuit depth:** 6 (NISQ-ready)
 
 ---
+## Summary
+-This repository contains my quantum Galton board implementation and results for the WISER 2025 challenge, focused on a clean, reproducible pipeline that verifies the classic binomial/Gaussian behavior and communicates a simple quantum advantage story. The core idea maps each board level to a qubit, applies a Hadamard gate on every qubit to create an equal superposition over 2^n trajectories, and measures to obtain bitstrings whose Hamming weight maps to a bin index. Aggregating outcomes over many shots produces an empirical distribution that, in the symmetric case, matches the binomial PMF and approaches a Gaussian as n increases. I verify correctness quantitatively using Jensen–Shannon distance as the primary metric, supported by Total Variation Distance, Chi-squared, and maximum per-bin error, and qualitatively via overlay and residual plots. The best validated configuration is a 5‑level board with a shallow circuit (≈ depth 6 after transpilation), run with 32,768 shots on a noiseless AerSimulator backend; the observed distribution achieves a JS distance of ≈ 0.003829 from the theoretical target, which I summarize as about 99.6% agreement. I also include a compact scaling narrative showing that while classical path enumeration grows as 2^n, the quantum circuit composes n simple modules, leading to roughly O(n) gate growth for the symmetric sampler and enabling an intuitive advantage for sampling tasks. The repository packages the workflow and artifacts to be easy to review: a final text report summarizing the approach, metrics, and conclusions; a composite figure that includes theoretical vs observed bars for the 5‑level case, residuals, a speedup curve, a log‑scale complexity plot, and a summary panel; and a JSON export of metrics for reproducibility. Although the primary emphasis is the Gaussian/binomial baseline, the code structure is designed to be extensible toward biased or alternative targets by replacing uniform Hadamards with parameterized rotations and, when needed, introducing coin-and-shift primitives for quantum walk variants. I also include a brief noise note: under a modest device‑like noise model, the shallow circuit and advanced transpilation keep degradation small at this scale, supporting NISQ‑friendly execution for small-to-moderate n. Overall, this project aims to be accurate, explainable, and practical: simple circuits, sufficient shots, transparent metrics, and clean artifacts that make the results easy to validate and reuse.
 
 ## License
 [MIT License](LICENSE)
