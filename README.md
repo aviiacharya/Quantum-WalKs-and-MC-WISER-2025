@@ -2,7 +2,7 @@
 
 # Quantum Galton Board – WISER 2025 Final Submission
 
-# Team  : Abhipsa Acharya
+# Team  : Quantum Walk by Abhipsa Acharya
 - Single member, PhD Physics at University of Alabama
 
 ## Project Overview
@@ -20,7 +20,7 @@ The main code is organized into three blocks:
 
 ### **Block 1: Final Submission Report Generation**
 - Extracts **best accuracy results** from `optimized_results` dictionary (5-level board).
-- Creates a text-based **final submission report** (`wiser_final_submission.txt`).
+- Creates a text-based **final submission report** (`QW_MC_Summary_Wiser2025.pdf`).
 - Prints executive summary, key achievements, technical specs, and conclusions.
 
 ### **Block 2: Visualization Creation**
@@ -31,7 +31,7 @@ The main code is organized into three blocks:
   4. JS Distance comparison (noiseless vs noisy)
   5. Computational complexity scaling (classical vs quantum)
   6. Summary metrics box
-- Saves figure to `wiser_2025_final_results.png`.
+- Saves figure to `wiser_2025_final_results.png` or `Final.pdf`.
 
 ### **Block 3: Export & Presentation Aids**
 - Exports **JSON results file** (`wiser_2025_final.json`) for submission.
@@ -51,7 +51,7 @@ The main code is organized into three blocks:
 - pip install qiskit==2.1.1 numpy matplotlib
 
 ## Run the script / notebook
-- python wiser_2025_submission.py
+- Quantum_Walks_Galton_Board_by_Abhipsa.ipynb
 
 ---
 
