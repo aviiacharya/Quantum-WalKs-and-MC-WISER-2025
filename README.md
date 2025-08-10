@@ -1,4 +1,4 @@
-# Quantum-WalKs-and-MC-WISER-2025 by Abhipsa Acharya
+# Quantum-Walks-and-MC-WISER-2025 by Abhipsa Acharya
 
 # Quantum Galton Board – WISER 2025 Final Submission
 
