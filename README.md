@@ -2,6 +2,9 @@
 
 # Quantum Galton Board – WISER 2025 Final Submission
 
+# Team  : Abhipsa Acharya
+- Single member, PhD Physics at University of Alabama
+
 ## Project Overview
 This project implements an **optimized Quantum Galton Board** simulation using Qiskit for the WISER 2025 challenge.  
 It demonstrates:
