@@ -24,12 +24,12 @@ The main code is organized into three blocks:
 
 ### **Block 2: Visualization Creation**
 - Generates a **6-panel figure** showing:
-  1. Theoretical vs Quantum probabilities (5-Level board)
-  2. Residual errors
-  3. Quantum speedup factor across board sizes
-  4. JS Distance comparison (noiseless vs noisy)
-  5. Computational complexity scaling (classical vs quantum)
-  6. Summary metrics box
+  -  Theoretical vs Quantum probabilities (5-Level board)
+  -  Residual errors
+  -  Quantum speedup factor across board sizes
+  -  JS Distance comparison (noiseless vs noisy)
+  -  Computational complexity scaling (classical vs quantum)
+  - Summary metrics box
 - Saves figure to `wiser_2025_final_results.png` or `Final.pdf`.
 
 ### **Block 3: Export & Presentation Aids**
