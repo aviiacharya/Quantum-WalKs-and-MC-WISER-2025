@@ -1,0 +1,61 @@
+{
+  "submission": {
+    "team": "Quantum Walk by Abhipsa",
+    "project": "Quantum Walks & Monte Carlo - Galton Board",
+    "timestamp": "2025-08-10T16:29:26.623429",
+    "platform": "Qiskit 2.1.1"
+  },
+  "results": {
+    "best_configuration": {
+      "levels": 5,
+      "js_distance": 0.0038286242373348827,
+      "accuracy_percent": 99.61713757626651,
+      "shots": 32768,
+      "circuit_depth": 6
+    },
+    "all_results": {
+      "level_3": {
+        "clean_js": 0.004156818991681449,
+        "noisy_js": 0.00556695225475384,
+        "chi_squared": 0.00013717015569829274,
+        "max_error": 0.0036010742173095966
+      },
+      "level_4": {
+        "clean_js": 0.005705595979801465,
+        "noisy_js": 0.005296686527383969,
+        "chi_squared": 0.00025644401663431284,
+        "max_error": 0.0036010742169494403
+      },
+      "level_5": {
+        "clean_js": 0.0038286242373348827,
+        "noisy_js": 0.0027216071281516547,
+        "chi_squared": 0.00011644959425128952,
+        "max_error": 0.0028991699201356136
+      },
+      "level_6": {
+        "clean_js": 0.004755500826700185,
+        "noisy_js": 0.0036400830391684247,
+        "chi_squared": 0.0001777956879747526,
+        "max_error": 0.003784179684851105
+      },
+      "level_7": {
+        "clean_js": 0.003260937189866057,
+        "noisy_js": 0.0041099549311569,
+        "chi_squared": 8.246160605411502e-05,
+        "max_error": 0.0012664794911743105
+      }
+    },
+    "quantum_advantage": {
+      "7_levels": {
+        "classical_paths": 128,
+        "quantum_gates": 7,
+        "speedup": 18.3
+      },
+      "10_levels": {
+        "classical_paths": 1024,
+        "quantum_gates": 10,
+        "speedup": 102.4
+      }
+    }
+  }
+}
