@@ -20,7 +20,6 @@ The main code is organized into three blocks:
 
 ### **Block 1: Final Submission Report Generation**
 - Extracts **best accuracy results** from `optimized_results` dictionary (5-level board).
-- Creates a text-based **final submission report** (`QW_MC_Summary_Wiser2025.pdf`).
 - Prints executive summary, key achievements, technical specs, and conclusions.
 
 ### **Block 2: Visualization Creation**
